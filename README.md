@@ -2,7 +2,7 @@
 
 This script replaces the cacerts folder from the icaclient with a symlink to the system certificate folder.
 
-Use at your own risk!
+# Use at your own risk!
 
 Currently working on:
 
