@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rm -rf /opt/Citrix/ICAClient/keystore/cacerts
-ln -s /etc/ssl/certs/ cacerts
+mv /opt/Citrix/ICAClient/keystore/cacerts /opt/Citrix/ICAClient/keystore/cacerts.bakup
+ln -s /etc/ssl/certs/ /opt/Citrix/ICAClient/keystore/cacerts
