@@ -13,4 +13,4 @@ Currently working on:
 
 Clone this repository or download the setup_icacl.sh and execute it.
 
-This will delete the cacerts folder (/opt/Citrix/ICAClient/keystore/cacerts) used by the ICAClient and then creates a symbolic link to the system-ssl-folder (/etc/ssl/certs).
+This will move the cacerts folder (/opt/Citrix/ICAClient/keystore/cacerts) used by the ICAClient and then creates a symbolic link to the system-ssl-folder (/etc/ssl/certs).
