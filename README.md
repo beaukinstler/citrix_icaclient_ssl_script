@@ -7,6 +7,8 @@ This script replaces the cacerts folder from the icaclient with a symlink to the
 Currently working on:
 
 - Ubuntu 21.10
+- Ubuntu 22.04
+- Opensuse 15
 - (MAYBE other Debian based Distributions, because they're all using the same installation package...)
 
 ## How it works
